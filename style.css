@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+/* ========================================
+    リセットcss
+========================================= */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-style:normal;
+	font-weight: normal;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html{overflow-y: scroll;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: ''; content: none;}
+input, textarea,{margin: 0; padding: 0;}
+ol, ul{list-style:none;}
+table{border-collapse: collapse; border-spacing:0;}
+caption, th{text-align: left;}
+a:focus {outline:none;}
+
+
+/* ========================================
+    全体設定
+========================================= */
+body {
+	color:#474747;
+	font-size: 14px;
+	line-height: 1.4em;
+	font-family: "メイリオ", "Meiryo", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a {
+	color:#474747;
+	text-decoration:none;
+}
+
+
+/* micro clearfix */
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {clear: both;}
+.cf {*zoom: 1;}
+
+
+/* ========================================
+    ヘッダー
+========================================= */
+
+header {
+	width: 100%;
+	height: 36px;
+	border-top: 4px solid #e66464;
+	padding: 25px 0;
+}
+
+div#header_inner {
+	width: 978px;
+	height: 36px;
+	margin: 0 auto;
+}
+
+header h1 {
+	float: left;
+}
+
+header nav {
+	float: right;
+	margin-top: 19px;
+}
+
+header nav ul {
+	border-right: 1px solid #e8e8e8;
+}
+
+header nav ul li {
+	float: left;
+	border-left: 1px solid #e8e8e8;
+	font-size: 16px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+
+/* ========================================
+    メイン画像
+========================================= */
+
+div#mainimage {
+	width: 100%;
+	height: 392px;
+	background-color: aqua;
+}
+
+
+
+/* ========================================
+    授業内容
+========================================= */
+
+div#introduction {
+	width: 100%;
+	height: 471px;
+	background-color: blue;
+}
+
+
+/* ========================================
+    料金体制
+========================================= */
+
+div#price {
+	width: 100%;
+	height: 453px;
+	background-color: aquamarine;
+}
+
+
+
+/* ========================================
+    フッター
+========================================= */
+
+footer {
+	width: 100%;
+	height: 73px;
+	background-color: aqua;
+}
