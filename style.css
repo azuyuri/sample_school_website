@@ -112,7 +112,32 @@ header nav ul li {
 div#mainimage {
 	width: 100%;
 	height: 392px;
-	background-color: aqua;
+	background: url(images/mainimage.jpg) no-repeat top center;
+}
+
+div#mainimage_text {
+	width: 978px;
+	height: auto;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+
+div#mainimage_text p {
+	font-size: 30px;
+	line-height: 40px;
+	font-weight: 900;
+	letter-spacing: 9px;
+	margin-bottom: 20px;
+}
+
+div#mainimage_text dl {
+	width: 373px;
+}
+
+div#mainimage_text dl dd {
+	margin: 20px 0;
+	font-size: 14px;
+	line-height: 21px;
 }
 
 
