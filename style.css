@@ -148,7 +148,7 @@ div#mainimage_text dl dd {
 
 div#introduction {
 	width: 100%;
-	height: 471px;
+	height: auto;
 	background-color: #ed7c7c;
 }
 
@@ -179,6 +179,8 @@ div#introduction_title span {
 	color: #fff;
 	font-size: 14px;
 }
+
+/* 講師紹介 */
 
 div#teacher_list {
 	width: 632px;
@@ -220,11 +222,52 @@ div#teacher_list dl dd.teacher_comment {
 	line-height: 18px;
 }
 
+/* コース紹介 */
+
 div#course_list {
 	width: 286px;
-	height: 338px;
-	background-color: purple;
+	height: auto;
+	background-color: #fff;
 	float: right;
+}
+
+div#course_list h4 {
+	font-size: 18px;
+	font-weight: 900px;
+	padding: 15px 15px 10px 15px;
+}
+
+div#course_list ul li {
+	border-top: 1px solid #eae9e7;
+	padding: 15px;
+}
+
+div#course_list ul li a {
+	display: block;
+	height: 37px;
+	width: auto;
+	line-height: 37px;
+	padding-left: 50px;
+}
+
+div#course_list ul li#ps a {
+	background: url(images/icon_photoshop.png) no-repeat left center;
+}
+
+div#course_list ul li#ai a {
+	background: url(images/icon_ai.png) no-repeat left center;
+}
+
+div#course_list ul li#pr a {
+	background: url(images/icon_pr.png) no-repeat left center;
+}
+
+div#course_list ul li#fw a {
+	background: url(images/icon_fw.png) no-repeat left center;
+}
+
+div#course_list ul li#dw a {
+	background: url(images/icon_dw.png) no-repeat left center;
 }
 
 
